@@ -1,5 +1,5 @@
 
-public class persona
+public class Persona
 {
     // instance variables - replace the example below with your own
     private int edad;
@@ -8,7 +8,7 @@ public class persona
     /**
      * Constructor for objects of class persona
      */
-    public persona(int laEdad, String elNombre)
+    public Persona(int laEdad, String elNombre)
     {
         // initialise instance variables
         edad = laEdad;
