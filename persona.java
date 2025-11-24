@@ -14,6 +14,13 @@ public class Persona
         edad = laEdad;
         nombre = elNombre;
     }
+    public int getEdadPersona() {
+        return edad;
+    }
+    public String getNombrePersona () {
+        return nombre;
+    }
+    
 
    
 }
