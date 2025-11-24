@@ -21,6 +21,10 @@ public class Persona
         return nombre;
     }
     
+    public void imprimirDetalles () {
+        System.out.print ("Nombre: " + nombre + ", Edad: " + edad);
+    }
+    
 
    
 }
