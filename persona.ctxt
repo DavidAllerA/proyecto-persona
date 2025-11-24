@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=java.lang.String\ getNombrePersona()
 comment4.params=
 comment4.target=void\ imprimirDetalles()
-numComments=5
+comment5.params=
+comment5.target=boolean\ esMayorDeEdad()
+numComments=6
