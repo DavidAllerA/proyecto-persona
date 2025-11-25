@@ -22,7 +22,7 @@ public class Persona
     }
     
     public void imprimirDetalles () {
-        System.out.print ("Nombre: " + nombre + ", Edad: " + edad);
+        System.out.print("Nombre: " + nombre + ", Edad: " + edad);
     }
     public boolean esMayorDeEdad () {
         if (edad >= 18) {
@@ -33,6 +33,8 @@ public class Persona
         }
         
     }
-
+    public void cumplirAños () {
+        edad = edad+1;
+    }
    
 }
