@@ -50,5 +50,18 @@ public class Persona
         }
         
     }
+    
+    public void imprimirSiEsMayorQue (int edadAComparar) {
+        if (edad > edadAComparar) {
+            System.out.print(nombre + " tiene mas de " + edadAComparar + " años");
+        }
+        else if (edad == edadAComparar) {
+            System.out.print(nombre + " tiene " + edadAComparar + " años");
+        }
+        else {
+            System.out.print(nombre + " tiene menos de " + edadAComparar + " años");
+        }
+        
+    }
    
 }
