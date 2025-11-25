@@ -33,8 +33,22 @@ public class Persona
         }
         
     }
-    public void cumplirAños () {
+    public void cumplirAnos () {
         edad = edad+1;
+    }
+    
+    public String obtenerEtapaDeVida () {
+        
+        if (edad >= 65) {
+            return "Jubilado";
+        }
+        if (edad >= 18) {
+            return "Adulto";
+        }
+        else {
+            return "Menor de edad";
+        }
+        
     }
    
 }
