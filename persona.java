@@ -63,5 +63,27 @@ public class Persona
         }
         
     }
+    
+    public void diagnosticoDeVoto() {
+        boolean puedeVotar;
+        if (edad >= 18) {
+            puedeVotar = true;
+            System.out.print("Puede votar");
+            
+            if (edad < 60) {
+                System.out.print(" y Votara a un partido progresista");
+            }
+            else {
+              System.out.print(" y Votara a un partido conservador");  
+            }
+        }
+            
+        
+        else {
+            puedeVotar = false;
+            System.out.print("No tiene edad para votar");
+        }
+        
+    }
    
 }

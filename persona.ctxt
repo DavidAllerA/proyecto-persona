@@ -17,4 +17,6 @@ comment7.params=
 comment7.target=java.lang.String\ obtenerEtapaDeVida()
 comment8.params=edadAComparar
 comment8.target=void\ imprimirSiEsMayorQue(int)
-numComments=9
+comment9.params=
+comment9.target=void\ diagnosticoDeVoto()
+numComments=10
